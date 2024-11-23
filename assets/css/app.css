@@ -699,7 +699,7 @@ li{
 @media (min-width: 769px) and (max-width: 1100px){
 
     .destacado{
-        padding: 0px 20px;
+        
     }
     .nosotros{
         display: grid;
