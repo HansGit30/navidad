@@ -1,0 +1,14 @@
+/* Estilo base de los copos */
+i {
+    z-index: 2;
+}
+
+/* Animación de caída */
+@keyframes nieve {
+    0% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(calc(100vh + 50px));
+    }
+}
