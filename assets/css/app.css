@@ -2,8 +2,6 @@
     --blanco:#ffffff;
     --letra: "Montserrat", sans-serif;
 }
-
-
 *{
     margin: 0;
     padding: 0;
@@ -12,40 +10,29 @@
 a{
     text-decoration: none;
 }
-
 body {
     font-family: var(--letra);
-}
-  
+}  
 h1{
     font-size: 45px;
     font-weight: 600;
     line-height: 60px;
 }
-
 html{
     scroll-behavior: smooth;
     overflow-x: hidden;
     background: url(../img/fondos/bg.jpg);
 }
-
 img{
     max-width: 100%;
 }
-
 li{
     list-style: none;
 }
-
-
 .main{
     width: 100%;
     overflow-x: hidden;
 }
-
-
-/*------------------------------------------*/
-
 .banner-navidad{
     background: url(../img/fondos/sec5_bg.jpg);
     width: 100%;
@@ -58,7 +45,6 @@ li{
     width: 100%;
     height: auto;
     margin-bottom: 200px;
-
     & .galletas-fondo{
         z-index: 1;
         position: absolute;
@@ -68,7 +54,6 @@ li{
         height: 120%;
         background-image: url(../img/fondos/sec5_bg.jpg);
     }
-
     & .galletas-main{
         padding-top: 100px;
         position: relative;
@@ -80,14 +65,10 @@ li{
         grid-template-columns: 50% 50%;
         grid-template-rows: auto auto;
         color: #000;
-
         & .galleta-content-img{
             grid-column: 1/2;
             grid-row: 1/3;
             position: relative;
-
-            
-
             & .galleta-img{
                 width: 100%;
             }
@@ -112,7 +93,6 @@ li{
                 flex-direction: column;
                 align-items: center;
                 justify-content: center;
-
                 & a{
                     color: var(--blanco);
                     position: absolute;
@@ -129,9 +109,7 @@ li{
                     margin-top: 100px;
                 }
             }
-
-        }
-        
+        }       
         & .galleta-content-titulo{
             position: relative;
             grid-column: 2/3;
@@ -139,33 +117,24 @@ li{
             display: flex;
             align-items: center;
             justify-content: center;
-
             & h2{
                 text-align: center;
                 font-size: 40px;
             }
-        }
-        
+        }       
         & .galleta-content-info{
             position: relative;
             grid-column: 2/3;
             grid-row: 2/3;
             display: flex;
             justify-content: center;
-
             & p{
                 width: 85%;
                 font-size: 16px;
                 line-height: 1.8;
-            }
-            
-        }
-        
-    }
-
-    
-    
-    
+            }            
+        }       
+    }   
 }
 .elegirnos{
     color: white;
@@ -173,7 +142,6 @@ li{
     width: 100%;
     margin-bottom: 50px;
     background: url(../img/fondos/bg_brown.jpg);
-
     & h2{
         text-align: center;
     }
@@ -183,15 +151,13 @@ li{
         width: 80%;
         display: flex;
         justify-content: space-around;
-        gap: 20px;
-       
+        gap: 20px;   
         & .opcion-elegir{
             width: 40%;
             display: flex;
             flex-direction: column;
             align-items: center;
             gap: 30px;
-
             & img{
                 width: 80px;
             }
@@ -215,14 +181,12 @@ li{
     justify-content: start;
     align-items: end;
     color: var(--blanco);
-
     & .content-hero{
         display: flex;
         flex-direction: column;
         gap: 20px;
         padding-left: 50px;
         padding-bottom: 50px;
-
         & h1{
             font-size: 54px;
             max-width: 750px;
@@ -247,7 +211,6 @@ li{
     width: 100%;
     position: relative;
     margin-bottom: 200px;
-
     & .fondo-insta{
         position: absolute;
         top: 0;
@@ -255,8 +218,7 @@ li{
         width: 60%;
         height: 90%;
         background: url(../img/fondos/sec5_bg.jpg);
-    }
-    
+    }   
     & .insta-content{
         max-width: 1000px;
         width: 100%;
@@ -264,21 +226,17 @@ li{
         display: grid;
         grid-template-columns: 50% 50%;
         grid-template-rows: 400px 400px;
-
         & img{
             width: 250px;
             height: 300px;
             object-fit: cover;
-        }
-
-        
+        }       
         & .content-insta-info{
             grid-column: 1/2;
             grid-row: 1/2;
             padding-top: 100px;
             position: relative;
             z-index: 2;
-
             & h2{
                 color: #000;
                 font-size: 45px;
@@ -293,15 +251,13 @@ li{
                 color: #000;
                 line-height: 1.8;
                 font-family: "Montserrat", sans-serif;
-            }
-            
+            }           
         }
         & .sec1-insta{
             position: relative;
             grid-column: 2/3;
             grid-row: 1/2;
-            padding-top: 80px;
-            
+            padding-top: 80px;           
             & .in{
                 position: absolute;
                 top: 60px;
@@ -335,7 +291,6 @@ li{
             grid-column: 2/3;
             grid-row: 2/3;
             display: flex;
-
             & .in3{
                 position: absolute;
                 top: 60px;
@@ -352,7 +307,6 @@ li{
             }
         }
     }
-
     & .btn-insta{
         margin-top: 100px;
         width: 100%;
@@ -360,7 +314,6 @@ li{
         display: flex;
         justify-content: center;
         align-items: end;
-
         & a{
             display: block;
             width: 300px;
@@ -372,7 +325,6 @@ li{
             background: url(../img/fondos/bg_brown.jpg);
             color: white;
             border-radius: 15px;
-
             & img{
                 width: 30px;
             }
@@ -386,22 +338,18 @@ li{
     display: flex;
     justify-content: space-between;
     padding: 10px 50px;
-
     & .hamburger{
         display: none;
     }
-
     & .logo{
         height: 70px;
         width: auto;
     }
-
     & ul{
         display: flex;
         align-items: center;
         gap: 2rem;
         list-style: none;
-
         & a{
             color: var(--blanco);
         }
@@ -419,7 +367,6 @@ li{
     object-fit: cover;
     color: var(--blanco);
     text-align: center  ;
-
     & .content-navidad{
         width: 100%;
         height: 100%;    
@@ -428,7 +375,6 @@ li{
         justify-content: center;
         align-items: center;
         gap: 20px;
-
         & a{
             color: #000;
             display: block;
@@ -454,21 +400,18 @@ li{
     grid-template-columns: 45% 55%;
     grid-template-rows: auto auto;
     margin: 100px auto;
-
     & .nostros-content-titulo{
         position: relative;
         grid-column: 1/2;
         grid-row: 1/3;
         display: flex;
         flex-direction: column;
-        gap: 150px;
-    
+        gap: 150px;    
         & h2{
             margin-right: -100px;
             font-size: 50px;
             text-align: end;
-        }
-    
+        }   
         & img{
             width: 420px;
             height: 420px;
@@ -476,31 +419,26 @@ li{
             object-fit: cover;
             margin-left: -30px;
         }
-    }
-    
+    }    
     & .nosotros-content-info{
         position: relative;
         grid-column: 2/3;
         grid-row: 1/2;
         display: flex;
-        align-items: end;
-    
+        align-items: end;    
         & p{
             max-width: 570px;
             font-size: 18px;
             margin-top: 100px;
             line-height: 40px;
         }
-    }
-    
-    
+    }   
     & .nosotros-content-img{
         grid-column: 2/3;
         grid-row: 2/3;
         display: flex;
         justify-content: space-between;
-        margin-top: 100px;
-    
+        margin-top: 100px;    
         & img{
             width: 270px;
             height: 270px;
@@ -511,10 +449,8 @@ li{
         }
         & .segunda-img{
             margin-top: -50px;
-        }
-        
+        }        
     }
-    
 }
 .postres{
     width: 100%;
@@ -526,7 +462,6 @@ li{
     flex-direction: column;
     gap: 50px;
     color: var(--blanco);
-
     & h2{
         font-size: 40px;
         text-align: center;
@@ -535,21 +470,18 @@ li{
         margin: 0 auto;
         max-width: 1000px;
         width: 100%;
-
         & .producto-content-lista{
             width: 100%;
             display: grid;
             grid-template-columns: 65% 5% 30%;
             grid-template-rows: auto auto;
             margin-bottom: 50px;
-
             & .producto-principal{
                 grid-column: 1/2;
                 grid-row: 1/3;
                 width: 100%;
                 height: 100%;
                 position: relative;
-
                 & .producto-principal img{
                     width: 100%;
                     height: auto;
@@ -566,7 +498,6 @@ li{
                     display: flex;
                     align-items: center;
                     justify-content: center;
-
                     & p{
                         width: 85%;
                         font-size: 14px;
@@ -581,14 +512,12 @@ li{
                 height: 100%;
                 display: flex;
                 justify-content: center;
-
                 & .divisor{
                     width: 1px;
                     height: 100%;
                     background-color: #E6E3DC;
                 }
             }
-
             & .producto-segundo{
                 grid-column: 3/4;
                 grid-row: 1/2;
@@ -605,7 +534,6 @@ li{
                 display: flex;
                 flex-direction: column;
                 gap: 15px;
-
                 & img{
                     width: 100%;
                     height: 220px;
@@ -614,14 +542,12 @@ li{
             }
             & .producto-tercero img{
                 margin-top: 20px;
-            }
-            
+            }           
         }
         & .btn-producto{
             width: 100%;
             display: flex;
             justify-content: center;
-
             & a{
                 width: 300px;
                 height: 70px;
@@ -632,39 +558,29 @@ li{
                 color: var(--blanco);
             }
         }
-
     }
 }
-
-/*---------------------------------------------*/
-
 .footer{
     width: 100%;
     background: url(../img/fondos/bg_brown.jpg);
     color: var(--blanco);
-
     & .content-footer{
         padding: 0px 20px;
-
         & .footer-top{
             width: 100%;
-
             & .footer-icon{
                 width: 100%;
                 height: 200px;
                 display: flex;
                 align-items: center;
                 justify-content: space-between;
-
                 & .logo-footer{
                     & img{
                         width: 150px;
                     }
                 }
-
                 & .icon-redes{
                     & a{
-
                         margin-left: 10px;
                         & img{
                             width: 30px;
@@ -672,14 +588,12 @@ li{
                     }
                 }
             }
-
             & .footer-p{
                 max-width: 500px;
                 font-size: 20px;
                 line-height: 40px;
             }
         }
-
         & .footer-bottom{
             margin-top: 20px;
             width: 100%;
@@ -691,22 +605,12 @@ li{
         }
     }
 }
-
-
-
-/*-----------responsive-------*/
-
 @media (min-width: 769px) and (max-width: 1100px){
-
-    .destacado{
-        
-    }
     .nosotros{
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: auto auto auto;
         padding: 0 20px;
-
         & .nostros-content-titulo{
             width: 100%;
             grid-column: 1/2;
@@ -715,8 +619,7 @@ li{
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            gap: 50px;
-    
+            gap: 50px; 
             & h2{
                 margin-right: 0px;
                 font-size: 30px;
@@ -728,10 +631,8 @@ li{
                 border-radius: 50%;
                 object-fit: cover;
                 margin-left: 0px;
-            }
-            
-        }
-        
+            }           
+        }       
         & .nosotros-content-info{
             grid-column: 1/2;
             grid-row: 2/3;
@@ -778,13 +679,8 @@ li{
     .instagram{
         padding: 0px 20px;
     }
-
 }
-
-
-
 @media only screen and (max-width: 768px) {
-
     .banner-navidad{
         background: url(../img/fondos/sec5_bg.jpg);
         width: 100%;
@@ -1055,45 +951,34 @@ li{
         position: fixed;
         width: 100%;
         top: 0;
-
         background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) , url(../img/fondos/bgnav.webp) no-repeat center;
         backdrop-filter: blur(10px);
         -webkit-backdrop-filter: blur(10px);
         box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
         background-size: cover;
         object-fit: cover;
-
-
         & .hamburger{
             display: block;
             padding-top: 20px;
         }
         .none{
             display: none;
-
         }
-
         & ul{
             flex-direction: column;
             gap: 50px;
             width: 100%;
             padding: 50px 0;
-
             & li{
                 font-size: 20px;
             }
-
             & .m-b{
                 margin-bottom: 150px;
             }
-
-
         }
     }
     .navidad{
-
         & .content-navidad{
-
             & p{
                 font-size: 14px;
                 margin-bottom: 20px;
@@ -1105,7 +990,6 @@ li{
         grid-template-columns: 1fr;
         grid-template-rows: auto auto auto;
         padding: 0 20px;
-
         & .nostros-content-titulo{
             width: 100%;
             grid-column: 1/2;
@@ -1115,7 +999,6 @@ li{
             align-items: center;
             justify-content: center;
             gap: 50px;
-    
             & h2{
                 margin-right: 0px;
                 font-size: 30px;
@@ -1127,36 +1010,29 @@ li{
                 border-radius: 50%;
                 object-fit: cover;
                 margin-left: 0px;
-            }
-            
-        }
-        
+            }           
+        }        
         & .nosotros-content-info{
             grid-column: 1/2;
             grid-row: 2/3;
             display: flex;
             align-items: end;
-            justify-content: center;
-    
+            justify-content: center;   
             & p{
                 width: 100%;
                 font-size: 16px;
                 margin-top: 50px;
                 text-align: center;
                 line-height: 35px;
-            }
-            
-        }
-        
-        
+            }            
+        }        
         & .nosotros-content-img{
             grid-column: 1/2;
             grid-row: 3/4;
             display: flex;
             justify-content: center;
             gap: 30px;
-            margin-top: 50px;
-    
+            margin-top: 50px;    
             & img{
                 width: 38vw;
                 height: 38vw;
@@ -1167,31 +1043,26 @@ li{
             }
             & .segunda-img{
                 margin-top: 0px;
-            }
-        
+            }      
         }
     }
     .postres{
         padding: 80px 0;
         gap: 50px;
-
         & h2{
             font-size: 6.6vw;
             text-align: center;
         }
-
         & .producto-content{
             margin: 0 auto;
             width: 100%;
             padding: 0 20px;
-
             & .producto-content-lista{
                 width: 100%;
                 display: grid;
                 grid-template-columns: 50% 50%;
                 grid-template-rows: auto 140px auto;
                 margin-bottom: 50px;
-
                 & .producto-principal{
                     grid-column: 1/3;
                     grid-row: 1/2;
@@ -1201,17 +1072,14 @@ li{
                     display: flex;
                     justify-content: center;
                     align-items: center;
-
                     & img{
                         width: 90vw;
-                    
                     }
                     & .producto-principal-info{
                         bottom: -30px;
                         left: 5%;
                         width: 90%;
                         height: 100px;
-
                         & p{
                             width: 90%;
                             font-size: 12px;
@@ -1227,14 +1095,12 @@ li{
                     display: flex;
                     justify-content: center;
                     align-items: center;
-
                     & .divisor{
                         width: 100%;
                         height: 1px;
                         background-color: #E6E3DC;
                     }
                 }
-
                 & .producto-segundo{
                     grid-column: 1/2;
                     grid-row: 3/4;
@@ -1246,19 +1112,15 @@ li{
                     grid-row: 3/4;
                     width: 100%;
                     height: 100%;
-
                     & img{
                         margin-top: 0px;
-                    }
-                    
+                    }                 
                 }
-
                 & .productos-sec{
                     display: flex;
                     flex-direction: column;
                     align-items: center;
                     gap: 15px;
-
                     & img{
                         width: 38vw;
                         height: 38vw;
@@ -1267,15 +1129,12 @@ li{
                     & p{
                         font-size: 12px;
                     }
-                }
-                
+                }               
             }
-
             & .btn-producto{
                 width: 100%;
                 display: flex;
                 justify-content: center;
-
                 & a{
                     width: 300px;
                     height: 70px;
@@ -1283,22 +1142,16 @@ li{
                     display: flex;
                     align-items: center;
                     justify-content: center;
-                }
-                    
-            }
-              
+                }                    
+            }             
         }
     }
-
-
     .footer{
-    
         & .content-footer{
             & .footer-top{
                 & .footer-icon{   
                     & .icon-redes{
                         & a{
-    
                             margin-left: 0px;
                             margin-right: 20px;
                         }
@@ -1311,6 +1164,5 @@ li{
                 }
             }
         }
-    }
-    
+    } 
 }
