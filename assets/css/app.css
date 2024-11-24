@@ -332,6 +332,7 @@ li{
     }
 }
 .nav{
+    font-display: swap;
     position: absolute;
     z-index: 5;
     width: 100%;
