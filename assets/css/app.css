@@ -1048,11 +1048,11 @@ li{
         }
         & ul{
             flex-direction: column;
-            gap: 100px;
+            gap: 60px;
             width: 100%;
             height: 95vh;
             padding: 50px 0;
-            padding-top: 150px;
+            padding-top: 100px;
             & li{
                 font-size: 25px;
             }
