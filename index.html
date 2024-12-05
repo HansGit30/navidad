@@ -46,21 +46,21 @@
                     <h2>La Navidad sabe mejor
                         con nuestros postres</h2>
                     <p>Explora nuestro catálogo y haz tu pedido</p>
-                    <a id="mi-button" href="#hero">Ver Catálogo</a>
+                    <a id="mi-button" href="#hero">Pedir Catálogo</a>
                 </div>
             </section>
             <section id="nosotros">
                 <div class="nosotros">
                     <div class="nostros-content-titulo">
-                        <h2>SOBRE NOSOTROS</h2>
-                        <img loading="lazy" src="./assets/img/postres/nostros-cir.webp" alt="">
+                        <h2 class="scrollDerecha">SOBRE NOSOTROS</h2>
+                        <img class="scrollDerecha" loading="lazy" src="./assets/img/postres/nostros-cir.webp" alt="">
                     </div>
                     <div class="nosotros-content-info">
-                        <p>Todo comenzó con un sueño, crear un lugar donde cada postre no solo sea un placer, sino una experiencia especial. En LA TARTA, no vemos a nuestros clientes como simples compradores, sino como amigos que comparten nuestra pasión por los postres. Nos dedicamos a la repostería artesanal, usando ingredientes de la mejor calidad. Cada tarta, pastel y galleta que horneamos lleva una parte de nuestra historia y dedicación.</p>
+                        <p class="scrollIzquierda">Todo comenzó con un sueño, crear un lugar donde cada postre no solo sea un placer, sino una experiencia especial. En LA TARTA, no vemos a nuestros clientes como simples compradores, sino como amigos que comparten nuestra pasión por los postres. Nos dedicamos a la repostería artesanal, usando ingredientes de la mejor calidad. Cada tarta, pastel y galleta que horneamos lleva una parte de nuestra historia y dedicación.</p>
                     </div>
                     <div class="nosotros-content-img">
-                        <img loading="lazy" class="primera-img" src="./assets/img/postres/nostros-bro.webp"" alt="">
-                        <img loading="lazy" class="segunda-img" src="./assets/img/postres/nostros-galleta.webp"" alt="">
+                        <img loading="lazy" class="primera-img scrollIzquierda" src="./assets/img/postres/nostros-bro.webp"" alt="">
+                        <img loading="lazy" class="segunda-img scrollIzquierda" src="./assets/img/postres/nostros-galleta.webp"" alt="">
                     </div>
                 </div>
             </section>
@@ -74,8 +74,8 @@
                 <div class="galletas-main">
                     <div class="galleta-content-img">
                         <div class="galleta-img">
-                            <img loading="lazy" class="galleta-img-principal" src="./assets/img/postres/galletas.jpg" alt="">
-                            <div class="galleta-btn">
+                            <img loading="lazy" class="galleta-img-principal scrollDerecha" src="./assets/img/postres/galletas.jpg" alt="">
+                            <div class="galleta-btn scrollIzquierda">
                                 <a href="#postres">
                                     <p>Descubre la magia en cada bocado</p>
                                 </a>
@@ -140,15 +140,15 @@
                         <p>Únete a nuestra comunidad dulce y no te pierdas ninguna sorpresa. Sé el primero en conocer nuestras novedades, síguenos en Instagram.</p>
                     </div>  
                     <div class="sec1-insta">
-                        <img loading="lazy" class="in" src="./assets/img/fondos/bg-hero.jpg" alt="">
+                        <img loading="lazy" class="in scrollDerecha" src="./assets/img/fondos/bg-hero.jpg" alt="">
                     </div>
                     <div class="sec2-insta">
-                        <img loading="lazy" class="in1" src="./assets/img/fondos/bg-hero.jpg" alt="">
-                        <img loading="lazy" class="in2" src="./assets/img/fondos/bg-hero.jpg" alt="">
+                        <img loading="lazy" class="in1 scrollDerecha" src="./assets/img/fondos/bg-hero.jpg" alt="">
+                        <img loading="lazy" class="in2 scrollIzquierda" src="./assets/img/fondos/bg-hero.jpg" alt="">
                     </div>
                     <div class="sec3-insta">
-                        <img loading="lazy" class="in3" src="./assets/img/fondos/bg-hero.jpg" alt="">
-                        <img loading="lazy" class="in4" src="./assets/img/fondos/bg-hero.jpg" alt="">
+                        <img loading="lazy" class="in3 scrollDerecha" src="./assets/img/fondos/bg-hero.jpg" alt="">
+                        <img loading="lazy" class="in4 scrollIzquierda" src="./assets/img/fondos/bg-hero.jpg" alt="">
                     </div>
                 </div>
                 <div class="btn-insta">
@@ -195,8 +195,7 @@
             //   const href = window.location.href;
       
               let url = `https://api.whatsapp.com/send?phone=${telefono}&text=
-                        *¡Hola!*%0A%0A
-                        *Deseo el Catalogo*%0A
+                        *¡Hola! Deseo ver su catalogo*%0A%0A
                         `;
       
               window.open(url);
