@@ -1,6 +1,7 @@
 const menu = document.querySelector(".hamburger");
 const ul =document.querySelector("#list");
 const a = document.querySelectorAll(".enlace");
+const checkbox = document.querySelector(".hamburger input");
 menu.addEventListener("click", (event) => {
     if (event.target.tagName === "INPUT") return;
     ul.classList.toggle("none");
@@ -8,8 +9,9 @@ menu.addEventListener("click", (event) => {
 a.forEach((e)=>{
     e.addEventListener("click",()=>{
         ul.classList.toggle("none");
+        checkbox.checked = false;
     })
-})
+});
 function isInViewport(element) {
     const rect = element.getBoundingClientRect();
     return rect.top <= window.innerHeight - 150 && rect.bottom >= 0;
