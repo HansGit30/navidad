@@ -46,7 +46,7 @@
                     <h2>La Navidad sabe mejor
                         con nuestros postres</h2>
                     <p>Explora nuestro catálogo y haz tu pedido</p>
-                    <a href="#hero">Ver Catálogo</a>
+                    <a id="mi-button" href="#hero">Ver Catálogo</a>
                 </div>
             </section>
             <section id="nosotros">
@@ -185,6 +185,23 @@
 
         <script src="./assets/js/app.js" defer></script>
         <script src="./assets/js/nieve.js"></script>
+        <script>
+            document.querySelector('#mi-button').addEventListener('click', e => {
+              e.preventDefault();
+      
+              //INGRESE UN NUMERO DE WHATSAPP VALIDO AQUI:
+              const telefono = '51993304138';
+      
+            //   const href = window.location.href;
+      
+              let url = `https://api.whatsapp.com/send?phone=${telefono}&text=
+                        *¡Hola!*%0A%0A
+                        *Deseo el Catalogo*%0A
+                        `;
+      
+              window.open(url);
+            });
+          </script>
         
     </body>
 </html>
