@@ -1,10 +1,20 @@
 const menu = document.querySelector(".hamburger");
 const ul =document.querySelector("#list");
+const li = document.querySelectorAll(".lista")
+const a = document.querySelectorAll(".enlace");
 
 menu.addEventListener("click", (event) => {
     if (event.target.tagName === "INPUT") return;
     ul.classList.toggle("none");
 });
+
+a.forEach((e)=>{
+    e.addEventListener("click",()=>{
+        ul.classList.toggle("none");
+    })
+})
+
+
 
 
 

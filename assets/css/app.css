@@ -963,7 +963,7 @@ li{
                     position: absolute;
                     bottom: 0;
                     left: 15%;
-                    transform: rotate(10deg);
+                    /* transform: rotate(10deg); */
                     z-index: 3;
                 }
             }
@@ -977,14 +977,14 @@ li{
                     position: absolute;
                     bottom: 0px;
                     left: 15%;
-                    transform: rotate(-15deg);
+                    /* transform: rotate(-15deg); */
                     z-index: 3;
                 }
                 & .in2{
                     position: absolute;
                     bottom: 0px;
                     right: 15%;
-                    transform: rotate(15deg);
+                    /* transform: rotate(15deg); */
                     z-index: 3;
                 }
             }
@@ -998,14 +998,14 @@ li{
                     position: absolute;
                     bottom: 0px;
                     left: 20%;
-                    transform: rotate(-15deg);
+                    /* transform: rotate(-15deg); */
                     z-index: 3;
                 }
                 & .in4{
                     position: absolute;
                     bottom: 0px;
                     right:15%;
-                    transform: rotate(0deg);
+                    /* transform: rotate(0deg); */
                     z-index: 2;
                 }
             }
@@ -1048,15 +1048,17 @@ li{
         }
         & ul{
             flex-direction: column;
-            gap: 50px;
+            gap: 100px;
             width: 100%;
+            height: 95vh;
             padding: 50px 0;
+            padding-top: 150px;
             & li{
-                font-size: 20px;
+                font-size: 25px;
             }
-            & .m-b{
+            /* & .m-b{
                 margin-bottom: 150px;
-            }
+            } */
         }
     }
     .navidad{
