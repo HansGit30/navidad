@@ -13,7 +13,6 @@
         <link rel="preload" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap">
     </head>
     <body>
-
         <main class="main">
             <nav class="nav">
                 <img class="logo slide-right" src="./assets/img/CATALOGO BLANCO-05.svg" alt="">
@@ -45,7 +44,7 @@
                     <h2>La Navidad sabe mejor
                         con nuestros postres</h2>
                     <p>Explora nuestro catálogo y haz tu pedido</p>
-                    <a id="mi-button" href="#hero">Pedir Catálogo</a>
+                    <a class="mi-button" href="#hero">Pedir Catálogo</a>
                 </div>
             </section>
             <section id="nosotros">
@@ -63,11 +62,9 @@
                     </div>
                 </div>
             </section>
-
             <section class="banner-navidad">
                 <img loading="lazy" src="./assets/img/fondos/PORTADA WEB U_Mesa de trabajo 1.png" alt="">
             </section>
-
             <section class="destacado">
                 <div class="galletas-fondo"></div>
                 <div class="galletas-main">
@@ -113,7 +110,7 @@
                         </div>
                     </div>
                     <div class="btn-producto">
-                        <a href="">Descubrir</a>
+                        <a class="mi-button" href="">Descubrir</a>
                     </div>
                 </div>
             </section>
@@ -130,7 +127,6 @@
                     </div>
                 </div>
             </section>
-
             <section id="instagram" class="instagram">
                 <div class="fondo-insta"></div>
                 <div class="insta-content">
@@ -151,7 +147,7 @@
                     </div>
                 </div>
                 <div class="btn-insta">
-                    <a href=""> <img loading="lazy" src="./assets/img/iconos/INSTAGRAM LOGO.svg" alt="">latarta.sac</a>
+                    <a href="https://www.instagram.com/latarta.sac/" target="_blank"> <img loading="lazy" src="./assets/img/iconos/INSTAGRAM LOGO.svg" alt="">latarta.sac</a>
                 </div>
             </section>
         </main>
@@ -164,16 +160,16 @@
                             loading="lazy" src="./assets/img/CATALOGO BLANCO-05.svg" alt="">
                         </a>
                         <div class="icon-redes">
-                            <a href="">
+                            <a href="https://www.facebook.com/profile.php?id=61561164323425&mibextid=ZbWKwL" target="_blank">
                                 <img loading="lazy" src="./assets/img/iconos/FACEBOOK LOGO.svg" alt="">
                             </a>
-                            <a href="">
+                            <a href="https://www.instagram.com/latarta.sac/" target="_blank">
                                 <img loading="lazy" src="./assets/img/iconos/INSTAGRAM LOGO.svg" alt="">
                             </a>
                         </div>
                     </div>
                     <div class="footer-p">
-                        <p>"Porque cada día merece algo dulce: Postres únicos para personas únicas"</p>
+                        <p>"Porque cada día mereces algo dulce: Postres únicos para personas únicas"</p>
                     </div>
                 </section>
                 <section class="footer-bottom">
@@ -181,25 +177,20 @@
                 </section>
             </div>
         </footer>
-
         <script src="./assets/js/app.js" defer></script>
         <script src="./assets/js/nieve.js"></script>
         <script>
-            document.querySelector('#mi-button').addEventListener('click', e => {
-              e.preventDefault();
-      
-              //INGRESE UN NUMERO DE WHATSAPP VALIDO AQUI:
-              const telefono = '51993304138';
-      
-            //   const href = window.location.href;
-      
-              let url = `https://api.whatsapp.com/send?phone=${telefono}&text=
-                        *¡Hola! Deseo ver su catalogo*%0A%0A
-                        `;
-      
-              window.open(url);
-            });
+            const what = document.querySelectorAll('.mi-button');
+            what.forEach((e)=>{
+                e.addEventListener("click",(event)=>{
+                    event.preventDefault();
+                    const telefono = '51993304138';
+                    let url = `https://api.whatsapp.com/send?phone=${telefono}&text=
+                                *¡Hola! Deseo ver su catalogo*%0A%0A
+                                `;
+                    window.open(url);
+                })
+            })
           </script>
-        
     </body>
 </html>
